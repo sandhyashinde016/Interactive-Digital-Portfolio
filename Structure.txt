@@ -1,0 +1,13 @@
+interactive-portfolio/
+│
+├── index.html                # Main landing page
+├── css/
+│   ├── style.css             # Main styling
+│   ├── responsive.css        # Media queriesS
+│   └── animations.css        # Optional animations
+├── js/
+│   ├── main.js               # Navbar, smooth scroll, typed text, toggles
+│   ├── animations.js         # GSAP/ScrollMagic animations
+│   └── formValidation.js     # Contact form validation
+├── assets/                   # Images, project screenshots, icons
+└── README.md                 # Project documentation

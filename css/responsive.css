@@ -1,0 +1,27 @@
+/* Responsive Navbar */
+@media(max-width:768px){
+  .nav-links{
+    position:absolute; right:0; top:70px; flex-direction:column;
+    background:#fff; width:200px; transform:translateX(100%);
+    transition:transform 0.3s ease-in-out; padding:1rem;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
+  }
+  .nav-links.active{transform:translateX(0);}
+  .menu-toggle{display:block; color:#0077b6;}
+}
+
+/* About Section Mobile */
+@media(max-width:768px){
+  .about-content{flex-direction:column; align-items:center; text-align:center;}
+  .profile-img{width:180px;}
+}
+
+/* Skills & Projects */
+@media(max-width:768px){
+  .skills-grid, .projects-grid, .edu-grid, .cert-grid{grid-template-columns:1fr;}
+}
+
+/* Contact Section Mobile */
+@media(max-width:768px){
+  .contact form{width:90%;}
+}
